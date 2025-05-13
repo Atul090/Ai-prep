@@ -18,7 +18,7 @@ export default clerkMiddleware(async (auth,req)=>{
     }
 
     return NextResponse.next();
-});
+}); 
 
 export const config = {
   matcher: [
